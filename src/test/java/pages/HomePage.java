@@ -180,6 +180,10 @@ public class HomePage {
         page.dispatchEvent("zero-option:has-text('Asia') >> visible=true", "click");
         return true;
     }
+    public boolean clickDiscardButton() {
+        page.dispatchEvent("zero-button:has-text('Discard') >> visible=true", "click");
+        return true;
+    }
 }
 
 
